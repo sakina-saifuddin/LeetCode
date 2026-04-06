@@ -13,6 +13,9 @@ class Solution:
             map_s[a]=b
             map_t[b]=a
 
+            map_s
+            map_t
+
         return True
 
         
