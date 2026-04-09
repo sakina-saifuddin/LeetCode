@@ -13,4 +13,8 @@ class Solution:
         node=root
 
         return [node.val] + self.preorderTraversal(node.left) + self.preorderTraversal(node.right)
+
+        #1. Give me left result
+#2. Add myself
+#3. Give me right result
         
