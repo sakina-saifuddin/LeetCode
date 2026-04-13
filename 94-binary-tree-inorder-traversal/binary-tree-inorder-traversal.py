@@ -12,11 +12,8 @@ class Solution:
 
         node=root
 
-        result=[]
 
         return self.inorderTraversal(node.left) + [node.val] + self.inorderTraversal(node.right)
 
-
-        return result
 
         
